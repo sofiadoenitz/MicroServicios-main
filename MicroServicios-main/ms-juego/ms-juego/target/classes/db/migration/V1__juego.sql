@@ -4,5 +4,9 @@ CREATE TABLE db_juego (
     descripcion VARCHAR (250),
     categoria VARCHAR(100),
     desarrolladora VARCHAR (200),
-    fechalanzamiento VARCHAR(10)
+    fechalanzamiento VARCHAR(10),
+
+    modId INT,
+    descuentoId INT,
+    catalogoId INT
 );
