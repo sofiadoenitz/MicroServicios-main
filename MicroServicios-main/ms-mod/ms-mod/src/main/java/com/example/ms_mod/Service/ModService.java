@@ -33,8 +33,8 @@ public class ModService {
         return repo.save(mod);
     }
 
-    public List<Mod> buscarNombre(String titulo) {
-        return repo.findByTitulo(titulo);
+    public Mod buscarporId(Long id) {
+        return repo.findById(id).orElse(null);
     }
 
 }

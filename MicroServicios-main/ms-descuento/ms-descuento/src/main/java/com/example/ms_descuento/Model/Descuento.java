@@ -19,7 +19,6 @@ public class Descuento {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Long juegoId;
     private Long descuento;
     private String fechaInicio;
     private String fechaFin;

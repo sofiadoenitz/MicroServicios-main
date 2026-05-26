@@ -18,13 +18,7 @@ public class CatalogoService {
     }
 
     public Catalogo buscarId(Long id){
-        List<Catalogo> lista= repo.findAll();
-        for(Catalogo catalogo : lista){
-            if(catalogo.getId().equals(id)){
-                return catalogo;
-            }
-        }
-        return null;
+        return repo.findById(id).orElse(null);
     }
 
     public Catalogo guardar (Catalogo catalogo){
@@ -32,22 +26,11 @@ public class CatalogoService {
     }
 
     public Catalogo buscarCategoria(String categoria){
-        List <Catalogo> lista= repo.findAll();
-        for(Catalogo catalogo : lista){
-            if(catalogo.getCategoria().equalsIgnoreCase(categoria)){
-                return catalogo;
-            }
-        }
-        return null;
+        return repo.findByCategoria(categoria);
     }
 
     public Catalogo buscarPlataformas(String plataforma){
-        List<Catalogo> lista= repo.findAll();
-        for(Catalogo catalogo : lista){
-            if(catalogo.getPlataforma().equalsIgnoreCase(plataforma)){
-                return catalogo;
-            }
-        }
-        return null;
+        return repo.findByPlataforma(plataforma);
     }
+    
 }

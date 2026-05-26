@@ -25,15 +25,11 @@ public class DescuentoController {
     public List <Descuento>listar(){
         return serv.listar();
     }
-    @GetMapping("/{id}")
-    public Descuento buscar(@PathVariable Long id){
-        return serv.buscar(id);
-    }
     @PostMapping
     public Descuento agregargarDescuento (@RequestBody Descuento descuento){
         return serv.agregarDescuento(descuento);
     }
-    @PutMapping("*{id}")
+    @PutMapping("/{id}")
     public Descuento actualizar(@PathVariable Long id, @RequestBody Descuento descuento){
         return serv.actualizar(descuento);
     }
@@ -41,8 +37,8 @@ public class DescuentoController {
     public String eliminar(@PathVariable Long id){
         return serv.eliminar(id);
     }
-    @GetMapping("/juego/{juego}")
-    public List <Descuento> buscarPorJuego(@PathVariable Long juegoId){
-        return serv.buscarPorJuego(juegoId);
+    @GetMapping("/{id}}")
+    public Descuento buscar(@PathVariable Long id){
+        return serv.buscarporId(id);
     }
 }

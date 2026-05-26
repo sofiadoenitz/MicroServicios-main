@@ -70,4 +70,9 @@ public class JuegoService {
         }
         return respuesta;
     }
+
+    //Buscar por id
+    public Juego buscarPorId(Long id){
+        return repo.findById(id).orElse(null);
+    }
 }

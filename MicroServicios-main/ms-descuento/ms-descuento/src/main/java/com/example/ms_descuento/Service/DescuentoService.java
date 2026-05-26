@@ -16,9 +16,6 @@ public class DescuentoService {
     public List<Descuento> listar(){
         return repo.findAll();
     }
-    public Descuento buscar(Long id){
-        return repo.findById(id).get();
-    }
     public Descuento agregarDescuento(Descuento descuento){
         return repo.save(descuento);
     }
@@ -29,7 +26,8 @@ public class DescuentoService {
         repo.deleteById(id);
         return "Descuento eliminado";
     }
-    public List <Descuento> buscarPorJuego(Long juegoId){
-        return repo.findByJuegoId(juegoId);
+    public Descuento buscarporId(Long id){
+        return repo.findById(id).orElse(null);
     }
+
 }

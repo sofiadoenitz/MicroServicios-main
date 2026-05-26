@@ -42,9 +42,9 @@ public class ModController {
         return serv.aprobado(id);
     }
 
-    @GetMapping("/titulo/{titulo}")
-    public List<Mod> buscarNombre(@PathVariable String titulo) {
-        return serv.buscarNombre(titulo);
+    @GetMapping("/{id}")
+    public Mod buscar(@PathVariable Long id) {
+        return serv.buscarporId(id);
     }
 
 }
