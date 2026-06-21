@@ -1,0 +1,20 @@
+@Component
+public class DataLoader implements CommandLineRunner{
+    @Autowired
+    private JuegoRepository repo;
+
+    @Override
+    public void run(String... args) throws Exception {
+    if (repo.count() == 0) {
+        Faker faker = new Faker();
+        for (int i = 0; i < 15; i++) {
+            Juego juego = new Juego();
+            juego.setNombre(faker.name().fullName());
+            juego.setTelefono(faker.phoneNumber().cellPhone());
+            repo.save(juego);
+        }
+    }
+    repo.flush();
+    List<Juego> juegos = repo.findAll();
+}
+}
