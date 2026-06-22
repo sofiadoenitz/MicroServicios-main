@@ -46,7 +46,7 @@ public class FacturaServiceTest {
 
     @Test
     public void testBuscarPorId() {
-        Long id = 1L;
+        Long id = 1L; 
         Factura factura = new Factura();
         when(facturaRepository.findById(id)).thenReturn(java.util.Optional.of(factura));
         Factura found = facturaService.buscarPorId(id);
