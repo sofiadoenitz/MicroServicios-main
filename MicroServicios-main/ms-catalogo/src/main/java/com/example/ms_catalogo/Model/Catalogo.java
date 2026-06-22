@@ -18,7 +18,7 @@ public class Catalogo {
     private Long id;
     private String categoria;
     private String plataforma;
-    private String calisifacion;
+    private String clasificacion;
 
     private Long juegoId;
 }

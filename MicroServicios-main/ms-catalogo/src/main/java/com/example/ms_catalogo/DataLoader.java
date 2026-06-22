@@ -23,7 +23,7 @@ public class DataLoader implements CommandLineRunner{
             Catalogo catalogo = new Catalogo();
             catalogo.setCategoria(faker.esports().game());
             catalogo.setPlataforma(faker.esports().league());
-            catalogo.setCalisifacion(faker.esports().event());
+            catalogo.setClasificacion(faker.esports().event());
             catalogo.setJuegoId((long) faker.number().numberBetween(1, 100));
             repo.save(catalogo);
         }
