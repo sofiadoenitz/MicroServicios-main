@@ -20,7 +20,6 @@ public class Amigos {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Long IdUsuario;
-    private Long Idamigos;
     private String estado;
 
 }

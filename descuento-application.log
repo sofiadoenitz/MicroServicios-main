@@ -1,0 +1,77 @@
+2026-06-22T16:53:15.821-04:00  INFO 16120 --- [ms-descuento] [main] c.e.ms_descuento.MsDescuentoApplication  : Starting MsDescuentoApplication using Java 21.0.10 with PID 16120 (C:\Users\GAMER\Downloads\MicroServicios-main\MicroServicios-main\ms-descuento\target\classes started by GAMER in C:\Users\GAMER\Downloads\MicroServicios-main)
+2026-06-22T16:53:15.823-04:00  INFO 16120 --- [ms-descuento] [main] c.e.ms_descuento.MsDescuentoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-06-22T16:53:16.636-04:00  INFO 16120 --- [ms-descuento] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-22T16:53:16.757-04:00  INFO 16120 --- [ms-descuento] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113 ms. Found 1 JPA repository interface.
+2026-06-22T16:53:17.052-04:00  INFO 16120 --- [ms-descuento] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cca2fa87-adcd-3d10-8bb0-34d730d7bab6
+2026-06-22T16:53:17.205-04:00  WARN 16120 --- [ms-descuento] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-06-22T16:53:17.209-04:00  WARN 16120 --- [ms-descuento] [main] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-22T16:53:17.466-04:00  INFO 16120 --- [ms-descuento] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2026-06-22T16:53:17.476-04:00  INFO 16120 --- [ms-descuento] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-22T16:53:17.476-04:00  INFO 16120 --- [ms-descuento] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-06-22T16:53:17.546-04:00  INFO 16120 --- [ms-descuento] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-22T16:53:17.547-04:00  INFO 16120 --- [ms-descuento] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1686 ms
+2026-06-22T16:53:17.651-04:00  INFO 16120 --- [ms-descuento] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-22T16:53:17.962-04:00  INFO 16120 --- [ms-descuento] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f07d414
+2026-06-22T16:53:17.964-04:00  INFO 16120 --- [ms-descuento] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-22T16:53:18.032-04:00  INFO 16120 --- [ms-descuento] [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 9.22.3 by Redgate
+2026-06-22T16:53:18.032-04:00  INFO 16120 --- [ms-descuento] [main] o.f.c.internal.license.VersionPrinter    : See release notes here: https://rd.gt/416ObMi
+2026-06-22T16:53:18.032-04:00  INFO 16120 --- [ms-descuento] [main] o.f.c.internal.license.VersionPrinter    : 
+2026-06-22T16:53:18.047-04:00  INFO 16120 --- [ms-descuento] [main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/db_descuento (MySQL 8.0)
+2026-06-22T16:53:18.076-04:00  INFO 16120 --- [ms-descuento] [main] o.f.c.i.s.JdbcTableSchemaHistory         : Schema history table `db_descuento`.`flyway_schema_history` does not exist yet
+2026-06-22T16:53:18.079-04:00  INFO 16120 --- [ms-descuento] [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.017s)
+2026-06-22T16:53:18.100-04:00  INFO 16120 --- [ms-descuento] [main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table `db_descuento`.`flyway_schema_history` ...
+2026-06-22T16:53:18.150-04:00  INFO 16120 --- [ms-descuento] [main] o.f.core.internal.command.DbMigrate      : Current version of schema `db_descuento`: << Empty Schema >>
+2026-06-22T16:53:18.156-04:00  INFO 16120 --- [ms-descuento] [main] o.f.core.internal.command.DbMigrate      : Migrating schema `db_descuento` to version "1 - create table descuento"
+2026-06-22T16:53:18.193-04:00  INFO 16120 --- [ms-descuento] [main] o.f.core.internal.command.DbMigrate      : Successfully applied 1 migration to schema `db_descuento`, now at version v1 (execution time 00:00.015s)
+2026-06-22T16:53:18.275-04:00  INFO 16120 --- [ms-descuento] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-22T16:53:18.324-04:00  INFO 16120 --- [ms-descuento] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-06-22T16:53:18.350-04:00  INFO 16120 --- [ms-descuento] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-22T16:53:18.493-04:00  INFO 16120 --- [ms-descuento] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-22T16:53:19.086-04:00  INFO 16120 --- [ms-descuento] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-22T16:53:19.113-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : create table descuento (id bigint not null auto_increment, descuento bigint, fecha_fin varchar(255), fecha_inicio varchar(255), juego_id bigint, primary key (id)) engine=InnoDB
+2026-06-22T16:53:19.126-04:00  INFO 16120 --- [ms-descuento] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-22T16:53:19.423-04:00  WARN 16120 --- [ms-descuento] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-22T16:53:20.829-04:00  INFO 16120 --- [ms-descuento] [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2026-06-22T16:53:21.856-04:00  INFO 16120 --- [ms-descuento] [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2026-06-22T16:53:21.884-04:00  INFO 16120 --- [ms-descuento] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-06-22T16:53:21.911-04:00  WARN 16120 --- [ms-descuento] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-06-22T16:53:21.945-04:00  INFO 16120 --- [ms-descuento] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-06-22T16:53:22.031-04:00  INFO 16120 --- [ms-descuento] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-06-22T16:53:22.035-04:00  INFO 16120 --- [ms-descuento] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-06-22T16:53:22.054-04:00  INFO 16120 --- [ms-descuento] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-06-22T16:53:22.056-04:00  INFO 16120 --- [ms-descuento] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-06-22T16:53:22.056-04:00  INFO 16120 --- [ms-descuento] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-06-22T16:53:22.056-04:00  INFO 16120 --- [ms-descuento] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-06-22T16:53:22.056-04:00  INFO 16120 --- [ms-descuento] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-06-22T16:53:22.056-04:00  INFO 16120 --- [ms-descuento] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-06-22T16:53:22.056-04:00  INFO 16120 --- [ms-descuento] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-06-22T16:53:22.324-04:00  INFO 16120 --- [ms-descuento] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-06-22T16:53:22.325-04:00  INFO 16120 --- [ms-descuento] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-06-22T16:53:22.327-04:00  INFO 16120 --- [ms-descuento] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-06-22T16:53:22.331-04:00  INFO 16120 --- [ms-descuento] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1782161602330 with initial instances count: 3
+2026-06-22T16:53:22.335-04:00  INFO 16120 --- [ms-descuento] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MS-DESCUENTO with eureka with status UP
+2026-06-22T16:53:22.335-04:00  INFO 16120 --- [ms-descuento] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1782161602335, current=UP, previous=STARTING]
+2026-06-22T16:53:22.337-04:00  INFO 16120 --- [ms-descuento] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-DESCUENTO/localhost:ms-descuento:8084: registering service...
+2026-06-22T16:53:22.356-04:00  INFO 16120 --- [ms-descuento] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path ''
+2026-06-22T16:53:22.357-04:00  INFO 16120 --- [ms-descuento] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8084
+2026-06-22T16:53:22.370-04:00  INFO 16120 --- [ms-descuento] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-DESCUENTO/localhost:ms-descuento:8084 - registration status: 204
+2026-06-22T16:53:23.361-04:00  INFO 16120 --- [ms-descuento] [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2026-06-22T16:53:23.368-04:00  INFO 16120 --- [ms-descuento] [main] c.e.ms_descuento.MsDescuentoApplication  : Started MsDescuentoApplication in 8.908 seconds (process running for 9.229)
+2026-06-22T16:53:23.584-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : select count(*) from descuento d1_0
+2026-06-22T16:53:23.619-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : insert into descuento (descuento,fecha_fin,fecha_inicio,juego_id) values (?,?,?,?)
+2026-06-22T16:53:23.631-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : insert into descuento (descuento,fecha_fin,fecha_inicio,juego_id) values (?,?,?,?)
+2026-06-22T16:53:23.634-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : insert into descuento (descuento,fecha_fin,fecha_inicio,juego_id) values (?,?,?,?)
+2026-06-22T16:53:23.638-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : insert into descuento (descuento,fecha_fin,fecha_inicio,juego_id) values (?,?,?,?)
+2026-06-22T16:53:23.641-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : insert into descuento (descuento,fecha_fin,fecha_inicio,juego_id) values (?,?,?,?)
+2026-06-22T16:53:23.644-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : insert into descuento (descuento,fecha_fin,fecha_inicio,juego_id) values (?,?,?,?)
+2026-06-22T16:53:23.646-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : insert into descuento (descuento,fecha_fin,fecha_inicio,juego_id) values (?,?,?,?)
+2026-06-22T16:53:23.649-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : insert into descuento (descuento,fecha_fin,fecha_inicio,juego_id) values (?,?,?,?)
+2026-06-22T16:53:23.653-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : insert into descuento (descuento,fecha_fin,fecha_inicio,juego_id) values (?,?,?,?)
+2026-06-22T16:53:23.656-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : insert into descuento (descuento,fecha_fin,fecha_inicio,juego_id) values (?,?,?,?)
+2026-06-22T16:53:23.659-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : insert into descuento (descuento,fecha_fin,fecha_inicio,juego_id) values (?,?,?,?)
+2026-06-22T16:53:23.662-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : insert into descuento (descuento,fecha_fin,fecha_inicio,juego_id) values (?,?,?,?)
+2026-06-22T16:53:23.665-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : insert into descuento (descuento,fecha_fin,fecha_inicio,juego_id) values (?,?,?,?)
+2026-06-22T16:53:23.668-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : insert into descuento (descuento,fecha_fin,fecha_inicio,juego_id) values (?,?,?,?)
+2026-06-22T16:53:23.671-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : insert into descuento (descuento,fecha_fin,fecha_inicio,juego_id) values (?,?,?,?)
+2026-06-22T16:53:23.688-04:00 DEBUG 16120 --- [ms-descuento] [main] org.hibernate.SQL                        : select d1_0.id,d1_0.descuento,d1_0.fecha_fin,d1_0.fecha_inicio,d1_0.juego_id from descuento d1_0
+2026-06-22T16:58:22.071-04:00  INFO 16120 --- [ms-descuento] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

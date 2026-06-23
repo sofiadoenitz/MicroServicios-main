@@ -1,0 +1,77 @@
+2026-06-22T16:54:48.496-04:00  INFO 25876 --- [ms-notificacion] [main] c.e.m.MsNotificacionApplication          : Starting MsNotificacionApplication using Java 21.0.10 with PID 25876 (C:\Users\GAMER\Downloads\MicroServicios-main\MicroServicios-main\ms-notificacion\target\classes started by GAMER in C:\Users\GAMER\Downloads\MicroServicios-main)
+2026-06-22T16:54:48.499-04:00  INFO 25876 --- [ms-notificacion] [main] c.e.m.MsNotificacionApplication          : No active profile set, falling back to 1 default profile: "default"
+2026-06-22T16:54:49.216-04:00  INFO 25876 --- [ms-notificacion] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-22T16:54:49.330-04:00  INFO 25876 --- [ms-notificacion] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 1 JPA repository interface.
+2026-06-22T16:54:49.539-04:00  INFO 25876 --- [ms-notificacion] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1d947ee4-a84a-39a7-ab87-29848d372ab2
+2026-06-22T16:54:49.661-04:00  WARN 25876 --- [ms-notificacion] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-06-22T16:54:49.664-04:00  WARN 25876 --- [ms-notificacion] [main] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-22T16:54:49.854-04:00  INFO 25876 --- [ms-notificacion] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2026-06-22T16:54:49.865-04:00  INFO 25876 --- [ms-notificacion] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-22T16:54:49.866-04:00  INFO 25876 --- [ms-notificacion] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-06-22T16:54:49.938-04:00  INFO 25876 --- [ms-notificacion] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-22T16:54:49.938-04:00  INFO 25876 --- [ms-notificacion] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1401 ms
+2026-06-22T16:54:50.038-04:00  INFO 25876 --- [ms-notificacion] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-22T16:54:50.327-04:00  INFO 25876 --- [ms-notificacion] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@639cb788
+2026-06-22T16:54:50.329-04:00  INFO 25876 --- [ms-notificacion] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-22T16:54:50.404-04:00  INFO 25876 --- [ms-notificacion] [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 9.22.3 by Redgate
+2026-06-22T16:54:50.404-04:00  INFO 25876 --- [ms-notificacion] [main] o.f.c.internal.license.VersionPrinter    : See release notes here: https://rd.gt/416ObMi
+2026-06-22T16:54:50.405-04:00  INFO 25876 --- [ms-notificacion] [main] o.f.c.internal.license.VersionPrinter    : 
+2026-06-22T16:54:50.421-04:00  INFO 25876 --- [ms-notificacion] [main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/db_notificacion (MySQL 8.0)
+2026-06-22T16:54:50.450-04:00  INFO 25876 --- [ms-notificacion] [main] o.f.c.i.s.JdbcTableSchemaHistory         : Schema history table `db_notificacion`.`flyway_schema_history` does not exist yet
+2026-06-22T16:54:50.452-04:00  INFO 25876 --- [ms-notificacion] [main] o.f.core.internal.command.DbValidate     : Successfully validated 0 migrations (execution time 00:00.012s)
+2026-06-22T16:54:50.453-04:00  WARN 25876 --- [ms-notificacion] [main] o.f.core.internal.command.DbValidate     : No migrations found. Are your locations set up correctly?
+2026-06-22T16:54:50.469-04:00  INFO 25876 --- [ms-notificacion] [main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table `db_notificacion`.`flyway_schema_history` ...
+2026-06-22T16:54:50.528-04:00  INFO 25876 --- [ms-notificacion] [main] o.f.core.internal.command.DbMigrate      : Current version of schema `db_notificacion`: << Empty Schema >>
+2026-06-22T16:54:50.532-04:00  INFO 25876 --- [ms-notificacion] [main] o.f.core.internal.command.DbMigrate      : Schema `db_notificacion` is up to date. No migration necessary.
+2026-06-22T16:54:50.610-04:00  INFO 25876 --- [ms-notificacion] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-22T16:54:50.662-04:00  INFO 25876 --- [ms-notificacion] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-06-22T16:54:50.700-04:00  INFO 25876 --- [ms-notificacion] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-22T16:54:50.891-04:00  INFO 25876 --- [ms-notificacion] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-22T16:54:51.576-04:00  INFO 25876 --- [ms-notificacion] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-22T16:54:51.603-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : create table notificaciones (id bigint not null auto_increment, leido bit, mensaje varchar(255), tipo varchar(255), usuario_id bigint, primary key (id)) engine=InnoDB
+2026-06-22T16:54:51.616-04:00  INFO 25876 --- [ms-notificacion] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-22T16:54:51.924-04:00  WARN 25876 --- [ms-notificacion] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-22T16:54:53.299-04:00  INFO 25876 --- [ms-notificacion] [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2026-06-22T16:54:54.325-04:00  INFO 25876 --- [ms-notificacion] [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2026-06-22T16:54:54.344-04:00  INFO 25876 --- [ms-notificacion] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-06-22T16:54:54.374-04:00  WARN 25876 --- [ms-notificacion] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-06-22T16:54:54.409-04:00  INFO 25876 --- [ms-notificacion] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-06-22T16:54:54.495-04:00  INFO 25876 --- [ms-notificacion] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-06-22T16:54:54.498-04:00  INFO 25876 --- [ms-notificacion] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-06-22T16:54:54.516-04:00  INFO 25876 --- [ms-notificacion] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-06-22T16:54:54.516-04:00  INFO 25876 --- [ms-notificacion] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-06-22T16:54:54.516-04:00  INFO 25876 --- [ms-notificacion] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-06-22T16:54:54.517-04:00  INFO 25876 --- [ms-notificacion] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-06-22T16:54:54.517-04:00  INFO 25876 --- [ms-notificacion] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-06-22T16:54:54.517-04:00  INFO 25876 --- [ms-notificacion] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-06-22T16:54:54.517-04:00  INFO 25876 --- [ms-notificacion] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-06-22T16:54:54.776-04:00  INFO 25876 --- [ms-notificacion] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-06-22T16:54:54.778-04:00  INFO 25876 --- [ms-notificacion] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-06-22T16:54:54.779-04:00  INFO 25876 --- [ms-notificacion] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-06-22T16:54:54.785-04:00  INFO 25876 --- [ms-notificacion] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1782161694783 with initial instances count: 6
+2026-06-22T16:54:54.788-04:00  INFO 25876 --- [ms-notificacion] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MS-NOTIFICACION with eureka with status UP
+2026-06-22T16:54:54.788-04:00  INFO 25876 --- [ms-notificacion] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1782161694788, current=UP, previous=STARTING]
+2026-06-22T16:54:54.789-04:00  INFO 25876 --- [ms-notificacion] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-NOTIFICACION/localhost:ms-notificacion:8088: registering service...
+2026-06-22T16:54:54.806-04:00  INFO 25876 --- [ms-notificacion] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path ''
+2026-06-22T16:54:54.807-04:00  INFO 25876 --- [ms-notificacion] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8088
+2026-06-22T16:54:54.822-04:00  INFO 25876 --- [ms-notificacion] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-NOTIFICACION/localhost:ms-notificacion:8088 - registration status: 204
+2026-06-22T16:54:55.815-04:00  INFO 25876 --- [ms-notificacion] [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2026-06-22T16:54:55.822-04:00  INFO 25876 --- [ms-notificacion] [main] c.e.m.MsNotificacionApplication          : Started MsNotificacionApplication in 8.709 seconds (process running for 9.09)
+2026-06-22T16:54:56.021-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : select count(*) from notificaciones n1_0
+2026-06-22T16:54:56.108-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : insert into notificaciones (leido,mensaje,tipo,usuario_id) values (?,?,?,?)
+2026-06-22T16:54:56.121-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : insert into notificaciones (leido,mensaje,tipo,usuario_id) values (?,?,?,?)
+2026-06-22T16:54:56.125-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : insert into notificaciones (leido,mensaje,tipo,usuario_id) values (?,?,?,?)
+2026-06-22T16:54:56.129-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : insert into notificaciones (leido,mensaje,tipo,usuario_id) values (?,?,?,?)
+2026-06-22T16:54:56.133-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : insert into notificaciones (leido,mensaje,tipo,usuario_id) values (?,?,?,?)
+2026-06-22T16:54:56.137-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : insert into notificaciones (leido,mensaje,tipo,usuario_id) values (?,?,?,?)
+2026-06-22T16:54:56.142-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : insert into notificaciones (leido,mensaje,tipo,usuario_id) values (?,?,?,?)
+2026-06-22T16:54:56.145-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : insert into notificaciones (leido,mensaje,tipo,usuario_id) values (?,?,?,?)
+2026-06-22T16:54:56.148-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : insert into notificaciones (leido,mensaje,tipo,usuario_id) values (?,?,?,?)
+2026-06-22T16:54:56.152-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : insert into notificaciones (leido,mensaje,tipo,usuario_id) values (?,?,?,?)
+2026-06-22T16:54:56.156-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : insert into notificaciones (leido,mensaje,tipo,usuario_id) values (?,?,?,?)
+2026-06-22T16:54:56.159-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : insert into notificaciones (leido,mensaje,tipo,usuario_id) values (?,?,?,?)
+2026-06-22T16:54:56.162-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : insert into notificaciones (leido,mensaje,tipo,usuario_id) values (?,?,?,?)
+2026-06-22T16:54:56.165-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : insert into notificaciones (leido,mensaje,tipo,usuario_id) values (?,?,?,?)
+2026-06-22T16:54:56.168-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : insert into notificaciones (leido,mensaje,tipo,usuario_id) values (?,?,?,?)
+2026-06-22T16:54:56.189-04:00 DEBUG 25876 --- [ms-notificacion] [main] org.hibernate.SQL                        : select n1_0.id,n1_0.leido,n1_0.mensaje,n1_0.tipo,n1_0.usuario_id from notificaciones n1_0
+2026-06-22T16:59:54.523-04:00  INFO 25876 --- [ms-notificacion] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

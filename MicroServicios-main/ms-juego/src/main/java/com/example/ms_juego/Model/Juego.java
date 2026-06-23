@@ -26,5 +26,8 @@ public class Juego {
     private String fechaLanzamiento;
     private boolean disponible;
 
+    private Long idDescuento;
+    private Long idCatalogo;
+    private Long idMod;
 
 }

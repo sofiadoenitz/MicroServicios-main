@@ -1,0 +1,92 @@
+2026-06-22T16:55:06.293-04:00  INFO 28420 --- [ms-pago] [main] com.example.ms_pago.MsPagoApplication    : Starting MsPagoApplication using Java 21.0.10 with PID 28420 (C:\Users\GAMER\Downloads\MicroServicios-main\MicroServicios-main\ms-pago\target\classes started by GAMER in C:\Users\GAMER\Downloads\MicroServicios-main)
+2026-06-22T16:55:06.295-04:00  INFO 28420 --- [ms-pago] [main] com.example.ms_pago.MsPagoApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-06-22T16:55:07.212-04:00  INFO 28420 --- [ms-pago] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-22T16:55:07.345-04:00  INFO 28420 --- [ms-pago] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 1 JPA repository interface.
+2026-06-22T16:55:07.589-04:00  INFO 28420 --- [ms-pago] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9743800c-e8dc-33a8-bd8e-a945e279dc92
+2026-06-22T16:55:07.746-04:00  WARN 28420 --- [ms-pago] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2026-06-22T16:55:07.750-04:00  WARN 28420 --- [ms-pago] [main] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2026-06-22T16:55:07.998-04:00  INFO 28420 --- [ms-pago] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+2026-06-22T16:55:08.009-04:00  INFO 28420 --- [ms-pago] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-22T16:55:08.009-04:00  INFO 28420 --- [ms-pago] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-06-22T16:55:08.076-04:00  INFO 28420 --- [ms-pago] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-22T16:55:08.076-04:00  INFO 28420 --- [ms-pago] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1742 ms
+2026-06-22T16:55:08.155-04:00  INFO 28420 --- [ms-pago] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-22T16:55:08.443-04:00  INFO 28420 --- [ms-pago] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d67d5a4
+2026-06-22T16:55:08.445-04:00  INFO 28420 --- [ms-pago] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-22T16:55:08.523-04:00  INFO 28420 --- [ms-pago] [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 9.22.3 by Redgate
+2026-06-22T16:55:08.524-04:00  INFO 28420 --- [ms-pago] [main] o.f.c.internal.license.VersionPrinter    : See release notes here: https://rd.gt/416ObMi
+2026-06-22T16:55:08.524-04:00  INFO 28420 --- [ms-pago] [main] o.f.c.internal.license.VersionPrinter    : 
+2026-06-22T16:55:08.539-04:00  INFO 28420 --- [ms-pago] [main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/db_pago (MySQL 8.0)
+2026-06-22T16:55:08.579-04:00  INFO 28420 --- [ms-pago] [main] o.f.c.i.s.JdbcTableSchemaHistory         : Schema history table `db_pago`.`flyway_schema_history` does not exist yet
+2026-06-22T16:55:08.584-04:00  INFO 28420 --- [ms-pago] [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.027s)
+2026-06-22T16:55:08.611-04:00  INFO 28420 --- [ms-pago] [main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table `db_pago`.`flyway_schema_history` ...
+2026-06-22T16:55:08.671-04:00  INFO 28420 --- [ms-pago] [main] o.f.core.internal.command.DbMigrate      : Current version of schema `db_pago`: << Empty Schema >>
+2026-06-22T16:55:08.677-04:00  INFO 28420 --- [ms-pago] [main] o.f.core.internal.command.DbMigrate      : Migrating schema `db_pago` to version "1 - pago"
+2026-06-22T16:55:08.716-04:00  INFO 28420 --- [ms-pago] [main] o.f.core.internal.command.DbMigrate      : Successfully applied 1 migration to schema `db_pago`, now at version v1 (execution time 00:00.017s)
+2026-06-22T16:55:08.796-04:00  INFO 28420 --- [ms-pago] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-22T16:55:08.853-04:00  INFO 28420 --- [ms-pago] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-06-22T16:55:08.886-04:00  INFO 28420 --- [ms-pago] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-22T16:55:09.074-04:00  INFO 28420 --- [ms-pago] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-22T16:55:09.667-04:00  INFO 28420 --- [ms-pago] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-22T16:55:09.698-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : create table pago (usuario_id bigint not null auto_increment, descuento_id bigint, fecha_pago varchar(255), juego_id bigint, metodo_pago varchar(255), total integer not null, primary key (usuario_id)) engine=InnoDB
+2026-06-22T16:55:09.710-04:00  INFO 28420 --- [ms-pago] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-22T16:55:10.053-04:00  WARN 28420 --- [ms-pago] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-22T16:55:11.084-04:00  INFO 28420 --- [ms-pago] [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2026-06-22T16:55:12.576-04:00  INFO 28420 --- [ms-pago] [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2026-06-22T16:55:12.598-04:00  INFO 28420 --- [ms-pago] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-06-22T16:55:12.629-04:00  WARN 28420 --- [ms-pago] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-06-22T16:55:12.661-04:00  INFO 28420 --- [ms-pago] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-06-22T16:55:12.787-04:00  INFO 28420 --- [ms-pago] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-06-22T16:55:12.792-04:00  INFO 28420 --- [ms-pago] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-06-22T16:55:12.813-04:00  INFO 28420 --- [ms-pago] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-06-22T16:55:12.813-04:00  INFO 28420 --- [ms-pago] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-06-22T16:55:12.813-04:00  INFO 28420 --- [ms-pago] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-06-22T16:55:12.813-04:00  INFO 28420 --- [ms-pago] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-06-22T16:55:12.814-04:00  INFO 28420 --- [ms-pago] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-06-22T16:55:12.814-04:00  INFO 28420 --- [ms-pago] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-06-22T16:55:12.814-04:00  INFO 28420 --- [ms-pago] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-06-22T16:55:13.059-04:00  INFO 28420 --- [ms-pago] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-06-22T16:55:13.062-04:00  INFO 28420 --- [ms-pago] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-06-22T16:55:13.063-04:00  INFO 28420 --- [ms-pago] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-06-22T16:55:13.067-04:00  INFO 28420 --- [ms-pago] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1782161713066 with initial instances count: 8
+2026-06-22T16:55:13.069-04:00  INFO 28420 --- [ms-pago] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MS-PAGO with eureka with status UP
+2026-06-22T16:55:13.071-04:00  INFO 28420 --- [ms-pago] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1782161713071, current=UP, previous=STARTING]
+2026-06-22T16:55:13.072-04:00  INFO 28420 --- [ms-pago] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-PAGO/localhost:ms-pago:8089: registering service...
+2026-06-22T16:55:13.090-04:00  INFO 28420 --- [ms-pago] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path ''
+2026-06-22T16:55:13.091-04:00  INFO 28420 --- [ms-pago] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8089
+2026-06-22T16:55:13.106-04:00  INFO 28420 --- [ms-pago] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MS-PAGO/localhost:ms-pago:8089 - registration status: 204
+2026-06-22T16:55:14.099-04:00  INFO 28420 --- [ms-pago] [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2026-06-22T16:55:14.105-04:00  INFO 28420 --- [ms-pago] [main] com.example.ms_pago.MsPagoApplication    : Started MsPagoApplication in 9.202 seconds (process running for 9.557)
+2026-06-22T16:55:14.303-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : select count(*) from pago p1_0
+2026-06-22T16:55:14.338-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : select p1_0.usuario_id,p1_0.descuento_id,p1_0.fecha_pago,p1_0.juego_id,p1_0.metodo_pago,p1_0.total from pago p1_0 where p1_0.usuario_id=?
+2026-06-22T16:55:14.351-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : insert into pago (descuento_id,fecha_pago,juego_id,metodo_pago,total) values (?,?,?,?,?)
+2026-06-22T16:55:14.363-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : select p1_0.usuario_id,p1_0.descuento_id,p1_0.fecha_pago,p1_0.juego_id,p1_0.metodo_pago,p1_0.total from pago p1_0 where p1_0.usuario_id=?
+2026-06-22T16:55:14.364-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : insert into pago (descuento_id,fecha_pago,juego_id,metodo_pago,total) values (?,?,?,?,?)
+2026-06-22T16:55:14.367-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : select p1_0.usuario_id,p1_0.descuento_id,p1_0.fecha_pago,p1_0.juego_id,p1_0.metodo_pago,p1_0.total from pago p1_0 where p1_0.usuario_id=?
+2026-06-22T16:55:14.370-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : insert into pago (descuento_id,fecha_pago,juego_id,metodo_pago,total) values (?,?,?,?,?)
+2026-06-22T16:55:14.372-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : select p1_0.usuario_id,p1_0.descuento_id,p1_0.fecha_pago,p1_0.juego_id,p1_0.metodo_pago,p1_0.total from pago p1_0 where p1_0.usuario_id=?
+2026-06-22T16:55:14.373-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : insert into pago (descuento_id,fecha_pago,juego_id,metodo_pago,total) values (?,?,?,?,?)
+2026-06-22T16:55:14.376-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : select p1_0.usuario_id,p1_0.descuento_id,p1_0.fecha_pago,p1_0.juego_id,p1_0.metodo_pago,p1_0.total from pago p1_0 where p1_0.usuario_id=?
+2026-06-22T16:55:14.377-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : insert into pago (descuento_id,fecha_pago,juego_id,metodo_pago,total) values (?,?,?,?,?)
+2026-06-22T16:55:14.380-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : select p1_0.usuario_id,p1_0.descuento_id,p1_0.fecha_pago,p1_0.juego_id,p1_0.metodo_pago,p1_0.total from pago p1_0 where p1_0.usuario_id=?
+2026-06-22T16:55:14.381-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : insert into pago (descuento_id,fecha_pago,juego_id,metodo_pago,total) values (?,?,?,?,?)
+2026-06-22T16:55:14.385-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : select p1_0.usuario_id,p1_0.descuento_id,p1_0.fecha_pago,p1_0.juego_id,p1_0.metodo_pago,p1_0.total from pago p1_0 where p1_0.usuario_id=?
+2026-06-22T16:55:14.386-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : insert into pago (descuento_id,fecha_pago,juego_id,metodo_pago,total) values (?,?,?,?,?)
+2026-06-22T16:55:14.388-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : select p1_0.usuario_id,p1_0.descuento_id,p1_0.fecha_pago,p1_0.juego_id,p1_0.metodo_pago,p1_0.total from pago p1_0 where p1_0.usuario_id=?
+2026-06-22T16:55:14.389-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : insert into pago (descuento_id,fecha_pago,juego_id,metodo_pago,total) values (?,?,?,?,?)
+2026-06-22T16:55:14.392-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : select p1_0.usuario_id,p1_0.descuento_id,p1_0.fecha_pago,p1_0.juego_id,p1_0.metodo_pago,p1_0.total from pago p1_0 where p1_0.usuario_id=?
+2026-06-22T16:55:14.393-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : insert into pago (descuento_id,fecha_pago,juego_id,metodo_pago,total) values (?,?,?,?,?)
+2026-06-22T16:55:14.395-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : select p1_0.usuario_id,p1_0.descuento_id,p1_0.fecha_pago,p1_0.juego_id,p1_0.metodo_pago,p1_0.total from pago p1_0 where p1_0.usuario_id=?
+2026-06-22T16:55:14.397-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : insert into pago (descuento_id,fecha_pago,juego_id,metodo_pago,total) values (?,?,?,?,?)
+2026-06-22T16:55:14.399-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : select p1_0.usuario_id,p1_0.descuento_id,p1_0.fecha_pago,p1_0.juego_id,p1_0.metodo_pago,p1_0.total from pago p1_0 where p1_0.usuario_id=?
+2026-06-22T16:55:14.401-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : insert into pago (descuento_id,fecha_pago,juego_id,metodo_pago,total) values (?,?,?,?,?)
+2026-06-22T16:55:14.403-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : select p1_0.usuario_id,p1_0.descuento_id,p1_0.fecha_pago,p1_0.juego_id,p1_0.metodo_pago,p1_0.total from pago p1_0 where p1_0.usuario_id=?
+2026-06-22T16:55:14.404-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : insert into pago (descuento_id,fecha_pago,juego_id,metodo_pago,total) values (?,?,?,?,?)
+2026-06-22T16:55:14.407-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : select p1_0.usuario_id,p1_0.descuento_id,p1_0.fecha_pago,p1_0.juego_id,p1_0.metodo_pago,p1_0.total from pago p1_0 where p1_0.usuario_id=?
+2026-06-22T16:55:14.408-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : insert into pago (descuento_id,fecha_pago,juego_id,metodo_pago,total) values (?,?,?,?,?)
+2026-06-22T16:55:14.411-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : select p1_0.usuario_id,p1_0.descuento_id,p1_0.fecha_pago,p1_0.juego_id,p1_0.metodo_pago,p1_0.total from pago p1_0 where p1_0.usuario_id=?
+2026-06-22T16:55:14.412-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : insert into pago (descuento_id,fecha_pago,juego_id,metodo_pago,total) values (?,?,?,?,?)
+2026-06-22T16:55:14.415-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : select p1_0.usuario_id,p1_0.descuento_id,p1_0.fecha_pago,p1_0.juego_id,p1_0.metodo_pago,p1_0.total from pago p1_0 where p1_0.usuario_id=?
+2026-06-22T16:55:14.416-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : insert into pago (descuento_id,fecha_pago,juego_id,metodo_pago,total) values (?,?,?,?,?)
+2026-06-22T16:55:14.428-04:00 DEBUG 28420 --- [ms-pago] [main] org.hibernate.SQL                        : select p1_0.usuario_id,p1_0.descuento_id,p1_0.fecha_pago,p1_0.juego_id,p1_0.metodo_pago,p1_0.total from pago p1_0
+2026-06-22T17:00:12.818-04:00  INFO 28420 --- [ms-pago] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
